@@ -63,3 +63,12 @@ git branch
 # Crear rama
 git branch v1
 
+# checkout  nombre_de_rama
+# Moverme entre ramas
+git checkout master
+
+
+# checkout -b nueva_rama
+# Crear nueva rama y se mueve a ella 
+git checkout -b v1-checkout
+
