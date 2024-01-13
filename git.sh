@@ -92,3 +92,22 @@ git remote get-url origin
 
 # remote set-url repositorio_remoto nueva_url
 git remote set-url origin https://github.com/jsdiazp/lab_09.git
+
+# push repositorio_remoto rama
+# Enviar rama a repositorio remoto
+git push origin main
+
+# push repositorio_remoto --all
+# Enviar todas las ramas locales a repositorio remoto
+git push origin --all
+
+# fetch repositorio_remoto
+# Actualiza la información del repositorio remoto
+git fetch origin
+
+# merge repositorio_remoto/rama
+# Fusiona con rama de repositorio remoto
+git merge origin/master
+
+# pull repositorio_remoto rama_remota
+git pull origin main
