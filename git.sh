@@ -24,8 +24,7 @@ git add git.sh # Voy a seguir los cambios de git.sh
 
 # commit 
 # Registrar los cambios de un archivo(s)
-git commit -m"Inicio de proyecto" # Registro un cambio cambio (versión) con un mensaje
-
+git commit -m"Inicio de proyecto" # Registro un cambio cambio (versión) con un mensajegit
 
 # config
 # Configurar parámetros de git
@@ -63,3 +62,6 @@ git branch
 # Crear rama
 git branch v1
 
+# merge 
+# Funcionar dos rama. El comando fusiona con la rama que esta activa
+git merge v1-merge
