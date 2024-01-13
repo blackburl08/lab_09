@@ -31,3 +31,7 @@ git commit -m"Inicio de proyecto" # Registro un cambio cambio (versión) con un 
 git config --global user.name "Jorge Andrés Abril León"
 git config --global user.email " blackburl08@gmail.com"
 git config --list --global 
+
+# diff
+# Visualizar los cambios realizados respecto a una version anterior
+git diff
