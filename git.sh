@@ -24,7 +24,11 @@ git add git.sh # Voy a seguir los cambios de git.sh
 
 # commit 
 # Registrar los cambios de un archivo(s)
-git commit -m"Inicio de proyecto" # Registro un cambio cambio (versión) con un mensajegit
+git commit -m"Inicio de proyecto" # Registro un cambio cambio (versión) con un mensaje
+
+# commit 
+# Enmendar el mensaje de ultimo commit
+git commit --amend
 
 # config
 # Configurar parámetros de git
