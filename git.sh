@@ -77,3 +77,18 @@ git checkout -b v1-checkout
 # merge 
 # Funcionar dos rama. El comando fusiona con la rama que esta activa
 git merge v1-merge
+
+# remote add nombre_repositorio_remoto url
+# Adicionar un repositorio remoto
+git remote add origin https://github.com/jsdiazp/lab_09.git
+
+# remote
+# Listar los repositorios remotos
+git remote
+
+# remote get-url repositorio_remoto
+# Indica la URL del repositorio remoto
+git remote get-url origin
+
+# remote set-url repositorio_remoto nueva_url
+git remote set-url origin https://github.com/jsdiazp/lab_09.git
