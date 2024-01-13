@@ -6,6 +6,7 @@
 # -- Conocer que ha cambiado en mi código, lo cual puede impactar en un error que se este presentando facilitando la depuración del error
 # --Registrar las actividades que estoy ejecutando en el código
 # - Centralizar y respaldar mi código
+# - Contextualizar al equipo de trabajo respecto a los cambios que se han realizado en el código
 
 # git init
 # Permite activar la herramienta git en un proyecto (carpeta)
@@ -35,3 +36,19 @@ git config --list --global
 # diff
 # Visualizar los cambios realizados respecto a una version anterior
 git diff
+
+# branch 
+# Visualizar las ramas del repositorios 
+# Beneficios 
+# - Desarrollar nuevas funcionalidades sin impactar a los usuarios finales
+# - Desarrollar nuevas funcionalidades en entornos aislados 
+# - Registrar el trabajo que estoy realizando. Ej.:
+# * Nueva funcionalidad 
+# * Optimización de funcionalidad (Refactorización de código)
+# * Corrección de errores
+# * Modificación de interfaz de usuario
+git branch
+
+# branch nombre_de_nueva_rama
+# Crear rama
+git branch v1
